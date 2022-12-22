@@ -1,13 +1,1 @@
-# Landing Page Project
-
-## Table of Contents
-
-* [Instructions](#instructions)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+my structure to make a dynamic navigation bar useing the "ul" throw a few steps (1)-create the variable navbar and link it to the class .navbar__list. (2)- creat the variable  sections and make it a Array that contains all the sections dynamicly or just by adding a new section to the HTML code by creating for loob that add a "li" with a link to reach the section by by his href and give it the class .menu__link from the css code (3) apped the nav list 
