@@ -5,20 +5,19 @@ function createListItem() {
     for (sec of sections) {
         listItem = document.createElement("li");
         listItem.innerHTML = `
-        <li>
-            <a href="#${sec.id}" data-nav="${sec.id}" class="menu__link">
+        <a href="#${sec.id}" data-nav="${sec.id}" class="menu__link">
                 ${sec.dataset.nav}
-            </a>
-        </li>
+        </a>
         `;
         navList.appendChild(listItem);
 
     }
 }
-createlistItem();
+createListItem();
 //styling for the active states getboundingClientRect
 window.onscroll = function () {
     document.querySelectorAll("section").forEach(function (active) {
+        
         if(
             active.getBoundingClientRect().top >= -400 &&
             active.getBoundingClientRect().top <= 150
